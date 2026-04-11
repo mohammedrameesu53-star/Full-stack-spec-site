@@ -1,0 +1,96 @@
+/* Main layout */
+.um-container {
+    display: flex;
+}
+
+.um-content {
+    margin-left: 250px;
+    padding: 30px;
+    width: 100%;
+}
+
+.um-content h1 {
+    margin-bottom: 25px;
+    font-size: 26px;
+    font-weight: bold;
+}
+
+/* Table wrapper */
+.table-wrapper {
+    background: white;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+/* Table styles */
+.um-table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: left;
+}
+
+.um-table th {
+    background: #1e1f26;
+    color: white;
+    padding: 12px;
+    font-size: 15px;
+}
+
+.um-table td {
+    padding: 12px;
+    border-bottom: 1px solid #ddd;
+    font-size: 14px;
+}
+
+/* Hover effect */
+.um-table tr:hover {
+    background: #f5f5f5;
+}
+
+/* Status badges */
+.active-status {
+    color: white;
+    background: #28a745;
+    padding: 5px 12px;
+    border-radius: 20px;
+    font-size: 13px;
+}
+
+.blocked-status {
+    color: white;
+    background: #dc3545;
+    padding: 5px 12px;
+    border-radius: 20px;
+    font-size: 13px;
+}
+
+/* Buttons */
+.block-btn,
+.active-btn {
+    padding: 7px 12px;
+    border: none;
+    cursor: pointer;
+    border-radius: 8px;
+    margin-right: 8px;
+    font-size: 13px;
+    transition: 0.2s ease;
+}
+
+.block-btn {
+    background: #dc3545;
+    color: white;
+}
+
+.block-btn:hover {
+    background: #b92d3b;
+}
+
+.active-btn {
+    background: #28a745;
+    color: white;
+}
+
+.active-btn:hover {
+    background: #218838;
+}

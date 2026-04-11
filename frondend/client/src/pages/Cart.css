@@ -1,0 +1,137 @@
+.cart-wrapper {
+  display: flex;
+  gap: 30px;
+  padding: 20px;
+  justify-content: center;
+}
+
+/* LEFT — CART ITEMS */
+.cart-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  flex: 2;
+}
+
+.cart-card {
+  width: 200px;
+  background: white;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.cart-img {
+  width: 100%;
+  height: 150px;
+  object-fit: contain;
+  background: #f2f2f2;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.cart-title {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 6px;
+}
+
+.cart-price {
+  color: #333;
+  margin-bottom: 10px;
+  font-size: 15px;
+}
+
+/* Remove Button */
+.remove-btn {
+  background: #ff4747;
+  color: white;
+  padding: 8px 10px;
+  width: 100%;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.remove-btn:hover {
+  background: #cc0000;
+}
+
+/* RIGHT — BUY SECTION */
+.cart-summary {
+  flex: 1;
+  padding: 20px;
+  background: white;
+  border-radius: 12px;
+  height: fit-content;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.15);
+}
+
+.cart-summary h2 {
+  margin-bottom: 15px;
+}
+
+.buy-btn {
+  width: 100%;
+  background: #1e90ff;
+  color: white;
+  border: none;
+  padding: 12px;
+  font-size: 18px;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.buy-btn:hover {
+  background: #0a67d1;
+}
+
+.buy-btn:disabled {
+  background: gray;
+  cursor: not-allowed;
+}
+
+/* Quantity Box Container */
+.qty-box {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 10px 0;
+}
+
+/* Quantity Buttons */
+.qty-btn {
+  width: 35px;
+  height: 35px;
+  border: none;
+  background-color: #4a90e2;
+  color: white;
+  font-size: 20px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.2s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Hover Effect */
+.qty-btn:hover {
+  background-color: #1f73c3;
+}
+
+/* Disabled State (just in case) */
+.qty-btn:disabled {
+  background-color: #bfbfbf;
+  cursor: not-allowed;
+}
+
+/* Quantity Number */
+.qty-count {
+  font-size: 18px;
+  font-weight: bold;
+  min-width: 25px;
+  text-align: center;
+}

@@ -1,0 +1,72 @@
+/* Full screen center layout */
+.admin-container {
+  height: 100vh;
+  width: 100%;
+  background: linear-gradient(135deg, #1a1a2e, #16213e);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+}
+
+/* Card UI */
+.admin-card {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 40px 30px;
+  width: 350px;
+  border-radius: 12px;
+  backdrop-filter: blur(8px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+  text-align: center;
+  animation: fadeIn 0.4s ease-in-out;
+}
+
+/* Title */
+.admin-title {
+  color: white;
+  margin-bottom: 25px;
+  font-size: 28px;
+  font-weight: 600;
+}
+
+/* Input fields */
+.admin-input {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 18px;
+  border: none;
+  border-radius: 6px;
+  background: rgba(255, 255, 255, 0.85);
+  font-size: 15px;
+  outline: none;
+}
+
+/* Button */
+.admin-btn {
+  width: 100%;
+  padding: 12px;
+  font-size: 17px;
+  font-weight: 600;
+  color: white;
+  background: #0f3460;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.admin-btn:hover {
+  background: #533483;
+}
+
+/* Fade-in animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

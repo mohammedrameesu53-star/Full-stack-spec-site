@@ -1,0 +1,71 @@
+/* Center the login form */
+.login-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #f3f4f6;
+  /*Light grey */
+}
+
+/* Login card */
+.login-box {
+  width: 350px;
+  padding: 35px;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.12);
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+/* Title */
+.login-title {
+  text-align: center;
+  font-size: 28px;
+  margin-bottom: 10px;
+  font-weight: bold;
+  color: #333;
+}
+
+/* Inputs */
+.login-input {
+  padding: 12px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+  transition: 0.2s;
+}
+
+.login-input:focus {
+  border-color: #4f46e5;
+  outline: none;
+  box-shadow: 0 0 5px rgba(79, 70, 229, 0.4);
+  /* Indigo-600 */
+}
+
+/* Button */
+.login-btn {
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  background: #4f46e5;
+  /* Indigo-600 */
+  color: white;
+  font-size: 17px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.login-btn:hover {
+  background: #4338ca;
+  /* Indigo-700 */
+}
+
+/* Error text */
+.error-msg {
+  color: red;
+  text-align: center;
+  font-size: 14px;
+}

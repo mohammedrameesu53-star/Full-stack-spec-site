@@ -1,0 +1,855 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "name": "Peepstar Lumin Jugnoo",
+      "type": "mens",
+      "price": "1300",
+      "image": "https://www.specsmakers.in/cdn/shop/files/IMG_0067.jpg?v=1762411402&width=740"
+    },
+    {
+      "id": "2",
+      "name": "Peepstar Sparx Jugnoo",
+      "type": "mens",
+      "price": 1300,
+      "image": "https://www.specsmakers.in/cdn/shop/files/DSC_1685.jpg?v=1762433266&width=980"
+    },
+    {
+      "id": "3",
+      "name": "Peepstar Blynx Jugnoo",
+      "type": "mens",
+      "price": 1990,
+      "image": "https://www.specsmakers.in/cdn/shop/files/IMG_0085_de7cd4cb-2709-43a0-b3c3-afa00314e57f.jpg?v=1762423744&width=740"
+    },
+    {
+      "id": "4",
+      "name": "Peepstar Twinkle Jugnoo",
+      "type": "mens",
+      "price": 1250,
+      "image": "https://www.specsmakers.in/cdn/shop/files/DSC_1700.jpg?v=1762498707&width=980"
+    },
+    {
+      "id": "5",
+      "name": "Peepstar Glowster Jugnoo",
+      "type": "mens",
+      "price": 1000,
+      "image": "https://www.specsmakers.in/cdn/shop/files/IMG_0010_1_0df7dd46-977b-44ea-a0ff-c04f23791d10.jpg?v=1762406587&width=980"
+    },
+    {
+      "id": "6",
+      "name": "Peepstar Safari Edit",
+      "type": "mens",
+      "price": 1370,
+      "image": "https://www.specsmakers.in/cdn/shop/files/DSC_0434_35e0c02e-085d-4b7d-bea0-86e304f7023f.jpg?v=1761819495&width=980"
+    },
+    {
+      "id": "7",
+      "name": "Peepstar Safari Edit",
+      "type": "mens",
+      "price": 999,
+      "image": "https://www.specsmakers.in/cdn/shop/files/DSC_0449_a8649d60-3086-4bb9-aeab-29959fac7de7.jpg?v=1761817642&width=980"
+    },
+    {
+      "id": "8",
+      "name": "Specsmakers Flex",
+      "type": "mens",
+      "price": 1699,
+      "image": "https://www.specsmakers.in/cdn/shop/files/3_12cf453b-d36f-455b-80b0-619070d430be.jpg?v=1758869856&width=980"
+    },
+    {
+      "id": "9",
+      "name": "Happster Ace Astralis Leo",
+      "type": "mens",
+      "price": 3920,
+      "image": "https://www.specsmakers.in/cdn/shop/files/1_8088754f-e1f5-4d4d-8bbf-f800210feac0.jpg?v=1761988201&width=980"
+    },
+    {
+      "id": "10",
+      "name": "Peepstar Sparx Jugnoo",
+      "type": "mens",
+      "price": 999,
+      "image": "https://www.specsmakers.in/cdn/shop/files/1_356b3aeb-79d4-4883-a2e9-736cc870875c.jpg?v=1756982347&width=980"
+    },
+    {
+      "id": "11",
+      "name": "Happster Ace Astralis Aquarius",
+      "type": "mens",
+      "price": 999,
+      "image": "https://www.specsmakers.in/cdn/shop/files/1_356b3aeb-79d4-4883-a2e9-736cc870875c.jpg?v=1756982347&width=980"
+    },
+    {
+      "id": "12",
+      "name": "Peepstar Sparx Jugnoo",
+      "type": "mens",
+      "price": 999,
+      "image": "https://www.specsmakers.in/cdn/shop/files/DSC_1685.jpg?v=1762433266&width=980"
+    },
+    {
+      "id": "13",
+      "name": "Peepstar Blynx Jugnoo",
+      "type": "mens",
+      "price": 999,
+      "image": "https://www.specsmakers.in/cdn/shop/files/IMG_0023_0af41ee3-edad-4e8b-afb9-341df873c7d9.jpg?v=1762423744&width=980"
+    },
+    {
+      "id": "14",
+      "name": "Peepstar Sparx Jugnoo",
+      "type": "mens",
+      "price": 999,
+      "image": "https://www.specsmakers.in/cdn/shop/files/DSC_1700.jpg?v=1762498707&width=980"
+    },
+    {
+      "id": "15",
+      "name": "Peepstar Twinkle Jugnoo",
+      "type": "mens",
+      "price": 999,
+      "image": "https://www.specsmakers.in/cdn/shop/files/DSC_1700.jpg?v=1762498707&width=980"
+    },
+    {
+      "id": "16",
+      "name": "Peepstar Glowster Jugnoo",
+      "type": "womens",
+      "price": 999,
+      "image": "https://www.specsmakers.in/cdn/shop/files/IMG_0010_1_0df7dd46-977b-44ea-a0ff-c04f23791d10.jpg?v=1762406587&width=980"
+    },
+    {
+      "id": "17",
+      "name": "Peepstar Safari Edit",
+      "type": "womens",
+      "price": 999,
+      "image": "https://www.specsmakers.in/cdn/shop/files/DSC_0434_35e0c02e-085d-4b7d-bea0-86e304f7023f.jpg?v=1761819495&width=980"
+    },
+    {
+      "id": "18",
+      "name": "Peepstar Safari Edit",
+      "type": "womens",
+      "price": 999,
+      "image": "https://www.specsmakers.in/cdn/shop/files/DSC_0449_a8649d60-3086-4bb9-aeab-29959fac7de7.jpg?v=1761817642&width=980"
+    },
+    {
+      "id": "19",
+      "name": "Specsmakers Flex",
+      "type": "womens",
+      "price": 999,
+      "image": "https://www.specsmakers.in/cdn/shop/files/1_77f05482-d27f-4dba-b9c5-7aace1a30e97.jpg?v=1758869856&width=980"
+    },
+    {
+      "id": "20",
+      "name": "Happster Ace Astralis Leo",
+      "type": "womens",
+      "price": 999,
+      "image": "https://www.specsmakers.in/cdn/shop/files/1_8088754f-e1f5-4d4d-8bbf-f800210feac0.jpg?v=1761988201&width=980"
+    },
+    {
+      "id": "21",
+      "name": "Peepstar",
+      "type": "kids",
+      "price": 1780,
+      "image": "https://www.specsmakers.in/cdn/shop/files/1_596f4e2b-1db9-496f-9d7f-25603322e2b1.jpg?v=1719902938&width=740"
+    },
+    {
+      "id": "22",
+      "name": "Peepstar Lumin Jugnoo",
+      "type": "kids",
+      "price": 899,
+      "image": "https://www.specsmakers.in/cdn/shop/files/IMG_0067.jpg?v=1762411402&width=980"
+    },
+    {
+      "id": "23",
+      "name": "Peepstar Sparx Jugnoo",
+      "type": "kids",
+      "price": 999,
+      "image": "https://www.specsmakers.in/cdn/shop/files/DSC_1731.jpg?v=1762433266&width=980"
+    },
+    {
+      "id": "24",
+      "name": "Peepstar Blynx Jugnoo",
+      "type": "kids",
+      "price": "750000",
+      "image": "https://www.specsmakers.in/cdn/shop/files/IMG_0085_de7cd4cb-2709-43a0-b3c3-afa00314e57f.jpg?v=1762423744&width=1024"
+    },
+    {
+      "id": "25",
+      "name": "Peepstar Twinkle Jugnoo",
+      "type": "kids",
+      "price": 600,
+      "image": "https://www.specsmakers.in/cdn/shop/files/DSC_1737.jpg?v=1762498707&width=1024"
+    },
+    {
+      "id": "26",
+      "name": "Peepstar Glowster Jugnoo",
+      "type": "kids",
+      "price": 670,
+      "image": "https://www.specsmakers.in/cdn/shop/files/IMG_0077_e343d29b-1322-449a-8e9d-d1cfc01844f7.jpg?v=1762406587&width=1024"
+    },
+    {
+      "id": "27",
+      "name": "Peepstar Safari Edit",
+      "type": "kids",
+      "price": 830,
+      "image": "https://www.specsmakers.in/cdn/shop/files/DSC_0548_b53f39a2-defc-40b7-8025-86eb185b2930.jpg?v=1761819495&width=1024"
+    },
+    {
+      "id": "28",
+      "name": "Peepstar Safari Edit",
+      "type": "kids",
+      "price": 699,
+      "image": "https://www.specsmakers.in/cdn/shop/files/DSC_0552_1cfef81a-5c8a-49ad-94d0-59aa7cda8f6e.jpg?v=1761817642&width=980"
+    },
+    {
+      "id": "29",
+      "name": "Peepstar Cosmos",
+      "type": "kids",
+      "price": 780,
+      "image": "https://www.specsmakers.in/cdn/shop/files/3_2285f962-fb45-44b0-a277-c58ab6af34b0.jpg?v=1753360955&width=980"
+    },
+    {
+      "id": "30",
+      "name": "Peepstar Cosmos",
+      "type": "kids",
+      "price": 1300,
+      "image": "https://www.specsmakers.in/cdn/shop/files/3_7ecf37a9-23e3-4398-941e-74c408340169.jpg?v=1753360951&width=980"
+    },
+    {
+      "id": "31",
+      "name": "Peepstar Cosmos",
+      "type": "kids",
+      "price": 1500,
+      "image": "https://www.specsmakers.in/cdn/shop/files/3_40709bf6-e8bf-4c3d-973c-5d60feeca67b.jpg?v=1751350877&width=980"
+    },
+    {
+      "id": "32",
+      "name": "Peepstar Cosmos",
+      "type": "kids",
+      "price": 1259,
+      "image": "https://www.specsmakers.in/cdn/shop/files/3_03bdc5d9-0fee-47ba-8b8c-554a302711bb.jpg?v=1751350869&width=980"
+    },
+    {
+      "id": "33",
+      "name": "Happster Ace Astralis Aquarius",
+      "type": "Rectangle Full Frame Eyeglasses",
+      "price": 999,
+      "image": "https://www.specsmakers.in/cdn/shop/files/3_036ead29-f55c-40f5-bf45-76e5e7f7d12c.jpg?v=1751350865&width=980"
+    },
+    {
+      "id": "34",
+      "name": "Peepstar Cosmos",
+      "type": "kids",
+      "price": 999,
+      "image": "https://www.specsmakers.in/cdn/shop/files/1_356b3aeb-79d4-4883-a2e9-736cc870875c.jpg?v=1756982347&width=980"
+    },
+    {
+      "id": "35",
+      "name": "Peepstar Cosmos",
+      "type": "kids",
+      "price": 1400,
+      "image": "https://www.specsmakers.in/cdn/shop/files/3_26d6b1af-05b4-484c-b22e-13684ced95ab.jpg?v=1751350848&width=980"
+    },
+    {
+      "id": "36",
+      "name": "Happster Ace Ladies Astralis Cancer",
+      "type": "womens",
+      "price": 999,
+      "image": "https://www.specsmakers.in/cdn/shop/files/3_9e4aa5bc-7a0e-42ef-85bc-c4b55d2efc6f.jpg?v=1756980096&width=980"
+    },
+    {
+      "id": "37",
+      "name": "Happster Ace Astralis Aquarius",
+      "type": "womens",
+      "price": 1600,
+      "image": "https://www.specsmakers.in/cdn/shop/files/3_1_b8548914-79f0-4054-a935-89053b70338b.jpg?v=1754635088&width=980"
+    },
+    {
+      "id": "38",
+      "name": "Specsmakers Aero",
+      "type": "womens",
+      "price": 1900,
+      "image": "https://www.specsmakers.in/cdn/shop/files/3_ea4f4084-7582-4682-9e17-e2650c3907a5.jpg?v=1753093885&width=740"
+    },
+    {
+      "id": "39",
+      "name": "Happster Ace Astralis Aquarius",
+      "type": "womens",
+      "price": 2000,
+      "image": "https://www.specsmakers.in/cdn/shop/files/3_13da2490-7415-49f8-a56c-db5629d7aa81.jpg?v=1753093880&width=740"
+    },
+    {
+      "id": "40",
+      "name": "Specsmakers Core",
+      "type": "womens",
+      "price": 2400,
+      "image": "https://www.specsmakers.in/cdn/shop/files/3_13da2490-7415-49f8-a56c-db5629d7aa81.jpg?v=1753093880&width=740"
+    },
+    {
+      "id": "41",
+      "name": "Specsmakers Core",
+      "type": "womens",
+      "price": 1999,
+      "image": "https://www.specsmakers.in/cdn/shop/files/3_e221b1aa-3cf5-4416-9768-37efb4fc2094.jpg?v=1753093866&width=980"
+    },
+    {
+      "id": "42",
+      "name": "Happster Meta",
+      "type": "womens",
+      "price": 2800,
+      "image": "https://www.specsmakers.in/cdn/shop/files/3_30c3461c-aa0a-44c3-8b2d-e8a1fe46c72a.jpg?v=1753093811&width=740"
+    },
+    {
+      "id": "43",
+      "name": "Happster Meta",
+      "type": "womens",
+      "price": 3270,
+      "image": "https://www.specsmakers.in/cdn/shop/files/3_1981d6ef-73ee-4643-b51c-27672bedaf39.jpg?v=1753093817&width=980"
+    },
+    {
+      "id": "44",
+      "name": "Happster Meta",
+      "type": "womens",
+      "price": 2999,
+      "image": "https://www.specsmakers.in/cdn/shop/files/3_9_05d6624c-0835-431c-af38-c20528f45ea3.jpg?v=1753093797&width=980"
+    },
+    {
+      "id": "45",
+      "name": "Specsmakers Flex",
+      "type": "womens",
+      "price": 999,
+      "image": "https://www.specsmakers.in/cdn/shop/files/3_4e9008c8-52e1-443c-a3df-c0751b4f304b.jpg?v=1753093792&width=980"
+    },
+    {
+      "id": "46",
+      "name": "Happster Ace",
+      "type": "mens",
+      "price": "690",
+      "image": "https://www.specsmakers.in/cdn/shop/products/1_5d6b3ad5-5ca7-4480-a443-ca2e28063057.jpg?v=1648810283&width=740"
+    },
+    {
+      "id": "47",
+      "name": "Happster Ace",
+      "type": "mens",
+      "price": "920",
+      "image": "https://www.specsmakers.in/cdn/shop/products/3_7249f636-1998-4871-8560-b5877e033c7c.jpg?v=1750661445&width=980"
+    }
+  ],
+  "users": [
+    {
+      "id": "cfd8",
+      "name": "name",
+      "email": "name@gmail.com",
+      "password": "1111",
+      "confirmpassword": "1111",
+      "wishlist": [],
+      "cart": [
+        {
+          "id": "3",
+          "name": "Peepstar Blynx Jugnoo",
+          "type": "Square Full Frame Eyeglasses ",
+          "price": 1990,
+          "image": "https://www.specsmakers.in/cdn/shop/files/IMG_0085_de7cd4cb-2709-43a0-b3c3-afa00314e57f.jpg?v=1762423744&width=740"
+        },
+        {
+          "id": "4",
+          "name": "Peepstar Twinkle Jugnoo",
+          "type": "Cateye Full Frame Eyeglasses",
+          "price": 1250,
+          "image": "https://www.specsmakers.in/cdn/shop/files/DSC_1700.jpg?v=1762498707&width=980"
+        },
+        {
+          "id": "2",
+          "name": "Peepstar Sparx Jugnoo",
+          "type": "Cateye Full Frame Eyeglasses",
+          "price": 1300,
+          "image": "https://www.specsmakers.in/cdn/shop/files/DSC_1685.jpg?v=1762433266&width=980"
+        }
+      ],
+      "orders": [],
+      "action": true
+    },
+    {
+      "id": "b2e8",
+      "name": "fidha ",
+      "email": "fidha@gmail.com",
+      "password": "12345",
+      "confirmpassword": "12345",
+      "wishlist": [
+        {
+          "id": 2,
+          "name": "Peepstar Sparx Jugnoo\"",
+          "category": "mens",
+          "price": "7000.00",
+          "description": "Crafted with precision, these frames offer durability and style. A perfect choice for those who want a smart and confident appearance.",
+          "image": "https://www.specsmakers.in/cdn/shop/files/DSC_1685.jpg?v=1762433266&width=980",
+          "qty": 30,
+          "created_at": "2026-04-04T16:51:15.823612Z",
+          "updated_at": "2026-04-04T16:51:15.823680Z"
+        }
+      ],
+      "cart": [
+        {
+          "id": "3",
+          "name": "Peepstar Blynx Jugnoo",
+          "type": "Square Full Frame Eyeglasses ",
+          "price": 1990,
+          "image": "https://www.specsmakers.in/cdn/shop/files/IMG_0085_de7cd4cb-2709-43a0-b3c3-afa00314e57f.jpg?v=1762423744&width=740",
+          "qty": 1
+        },
+        {
+          "id": "4",
+          "name": "Peepstar Twinkle Jugnoo",
+          "type": "Cateye Full Frame Eyeglasses",
+          "price": 1250,
+          "image": "https://www.specsmakers.in/cdn/shop/files/DSC_1700.jpg?v=1762498707&width=980",
+          "qty": 1
+        },
+        {
+          "id": "5",
+          "name": "Peepstar Glowster Jugnoo",
+          "type": "Rectangle Full Frame Eyeglasses",
+          "price": 1000,
+          "image": "https://www.specsmakers.in/cdn/shop/files/IMG_0010_1_0df7dd46-977b-44ea-a0ff-c04f23791d10.jpg?v=1762406587&width=980",
+          "qty": 1
+        },
+        {
+          "id": "10",
+          "name": "Peepstar Sparx Jugnoo",
+          "type": "Cateye Full Frame Eyeglasses",
+          "price": 999,
+          "image": "https://www.specsmakers.in/cdn/shop/files/1_356b3aeb-79d4-4883-a2e9-736cc870875c.jpg?v=1756982347&width=980",
+          "qty": 1
+        },
+        {
+          "id": 2,
+          "name": "Peepstar Sparx Jugnoo\"",
+          "category": "mens",
+          "price": "7000.00",
+          "description": "Crafted with precision, these frames offer durability and style. A perfect choice for those who want a smart and confident appearance.",
+          "image": "https://www.specsmakers.in/cdn/shop/files/DSC_1685.jpg?v=1762433266&width=980",
+          "qty": 30,
+          "created_at": "2026-04-04T16:51:15.823612Z",
+          "updated_at": "2026-04-04T16:51:15.823680Z"
+        }
+      ],
+      "orders": [],
+      "action": false
+    },
+    {
+      "id": "4726",
+      "name": "name",
+      "email": "name@gmail.com",
+      "password": "1234",
+      "confirmpassword": "1234",
+      "wishlist": [],
+      "cart": [],
+      "orders": [],
+      "action": false
+    },
+    {
+      "id": "3803",
+      "name": "google",
+      "email": "google@gmail.com",
+      "password": "1212",
+      "confirmpassword": "1212",
+      "wishlist": [],
+      "cart": [
+        {
+          "id": "1",
+          "name": "Peepstar Lumin Jugnoo",
+          "type": "Rectangle Full Frame Eyeglasses",
+          "price": 1990,
+          "image": "https://www.specsmakers.in/cdn/shop/files/IMG_0067.jpg?v=1762411402&width=740"
+        },
+        {
+          "id": "2",
+          "name": "Peepstar Sparx Jugnoo",
+          "type": "Cateye Full Frame Eyeglasses",
+          "price": 1300,
+          "image": "https://www.specsmakers.in/cdn/shop/files/DSC_1685.jpg?v=1762433266&width=980"
+        },
+        {
+          "id": "3",
+          "name": "Peepstar Blynx Jugnoo",
+          "type": "Square Full Frame Eyeglasses ",
+          "price": 1990,
+          "image": "https://www.specsmakers.in/cdn/shop/files/IMG_0085_de7cd4cb-2709-43a0-b3c3-afa00314e57f.jpg?v=1762423744&width=740"
+        },
+        {
+          "id": "4",
+          "name": "Peepstar Twinkle Jugnoo",
+          "type": "Cateye Full Frame Eyeglasses",
+          "price": 1250,
+          "image": "https://www.specsmakers.in/cdn/shop/files/DSC_1700.jpg?v=1762498707&width=980"
+        }
+      ],
+      "orders": [],
+      "action": false
+    },
+    {
+      "id": "8654",
+      "name": "drake",
+      "email": "drake@gmail.com",
+      "password": "1010",
+      "confirmpassword": "1010",
+      "wishlist": [],
+      "cart": [
+        {
+          "id": "2",
+          "name": "Peepstar Sparx Jugnoo",
+          "type": "mens",
+          "price": 1300,
+          "image": "https://www.specsmakers.in/cdn/shop/files/DSC_1685.jpg?v=1762433266&width=980"
+        },
+        {
+          "id": "3",
+          "name": "Peepstar Blynx Jugnoo",
+          "type": "mens",
+          "price": 1990,
+          "image": "https://www.specsmakers.in/cdn/shop/files/IMG_0085_de7cd4cb-2709-43a0-b3c3-afa00314e57f.jpg?v=1762423744&width=740"
+        },
+        {
+          "id": "4",
+          "name": "Peepstar Twinkle Jugnoo",
+          "type": "mens",
+          "price": 1250,
+          "image": "https://www.specsmakers.in/cdn/shop/files/DSC_1700.jpg?v=1762498707&width=980"
+        }
+      ],
+      "orders": [],
+      "action": false
+    },
+    {
+      "id": "68ee",
+      "name": "50cent",
+      "email": "50cent@gmail.com",
+      "password": "2007",
+      "confirmpassword": "2007",
+      "wishlist": [
+        {
+          "id": "1",
+          "name": "Peepstar Lumin Jugnoo",
+          "type": "mens",
+          "price": 1990,
+          "image": "https://www.specsmakers.in/cdn/shop/files/IMG_0067.jpg?v=1762411402&width=740"
+        },
+        {
+          "id": "2",
+          "name": "Peepstar Sparx Jugnoo",
+          "type": "mens",
+          "price": 1300,
+          "image": "https://www.specsmakers.in/cdn/shop/files/DSC_1685.jpg?v=1762433266&width=980"
+        }
+      ],
+      "cart": [],
+      "orders": [],
+      "action": true
+    },
+    {
+      "id": "be77",
+      "name": "2pac",
+      "email": "2pac@gmail.com",
+      "password": "3344",
+      "confirmpassword": "3344",
+      "wishlist": [],
+      "cart": [],
+      "orders": [],
+      "action": true
+    },
+    {
+      "id": "b61c",
+      "name": "jamsheed",
+      "email": "jsmd@gmail.com",
+      "password": "12345678",
+      "confirmpassword": "12345678",
+      "wishlist": [],
+      "cart": [],
+      "orders": [],
+      "action": true
+    },
+    {
+      "id": "f486",
+      "name": "baby",
+      "email": "baby@gmail.com",
+      "password": "3344",
+      "confirmpassword": "3344",
+      "wishlist": [
+        {
+          "id": "2",
+          "name": "Peepstar Sparx Jugnoo",
+          "type": "mens",
+          "price": 1300,
+          "image": "https://www.specsmakers.in/cdn/shop/files/DSC_1685.jpg?v=1762433266&width=980"
+        },
+        {
+          "id": "3",
+          "name": "Peepstar Blynx Jugnoo",
+          "type": "mens",
+          "price": 1990,
+          "image": "https://www.specsmakers.in/cdn/shop/files/IMG_0085_de7cd4cb-2709-43a0-b3c3-afa00314e57f.jpg?v=1762423744&width=740"
+        }
+      ],
+      "cart": [],
+      "orders": [],
+      "action": true
+    },
+    {
+      "id": "8df4",
+      "name": "jewelem",
+      "email": "jewelem@gmail.com",
+      "password": "12345678",
+      "confirmpassword": "12345678",
+      "wishlist": [],
+      "cart": [],
+      "orders": [],
+      "action": true
+    },
+    {
+      "id": "7c0e",
+      "name": "traviscott",
+      "email": "traviscott@gmail.com",
+      "password": "404",
+      "confirmpassword": "404",
+      "wishlist": [],
+      "cart": [],
+      "orders": [],
+      "action": true
+    },
+    {
+      "id": "14d4",
+      "name": "Roddy Richh",
+      "email": "Roddy@gmail.com",
+      "password": "2000",
+      "confirmpassword": "2000",
+      "wishlist": [],
+      "cart": [],
+      "orders": [],
+      "action": true
+    },
+    {
+      "id": "cb4e",
+      "name": "Eminemin",
+      "email": "Eminemin@gmail.com",
+      "password": "2025",
+      "confirmpassword": "2025",
+      "wishlist": [],
+      "cart": [],
+      "orders": [],
+      "action": true
+    },
+    {
+      "id": "0f69",
+      "name": "daddy",
+      "email": "daddy@gmail.com",
+      "password": "1000",
+      "confirmpassword": "1000",
+      "wishlist": [],
+      "cart": [],
+      "orders": [],
+      "action": true
+    },
+    {
+      "id": "234b",
+      "name": "ddd",
+      "email": "ddd@gmail.com",
+      "password": "1212",
+      "confirmpassword": "1212",
+      "wishlist": [],
+      "cart": [],
+      "orders": [],
+      "action": true
+    },
+    {
+      "id": "f02b",
+      "name": "hhh",
+      "email": "hhh@gmail.com",
+      "password": "1111",
+      "confirmpassword": "1111",
+      "wishlist": [
+        {
+          "id": "3",
+          "name": "Peepstar Blynx Jugnoo",
+          "type": "mens",
+          "price": 1990,
+          "image": "https://www.specsmakers.in/cdn/shop/files/IMG_0085_de7cd4cb-2709-43a0-b3c3-afa00314e57f.jpg?v=1762423744&width=740"
+        }
+      ],
+      "cart": [
+        {
+          "id": "2",
+          "name": "Peepstar Sparx Jugnoo",
+          "type": "mens",
+          "price": 1300,
+          "image": "https://www.specsmakers.in/cdn/shop/files/DSC_1685.jpg?v=1762433266&width=980"
+        },
+        {
+          "id": "3",
+          "name": "Peepstar Blynx Jugnoo",
+          "type": "mens",
+          "price": 1990,
+          "image": "https://www.specsmakers.in/cdn/shop/files/IMG_0085_de7cd4cb-2709-43a0-b3c3-afa00314e57f.jpg?v=1762423744&width=740"
+        }
+      ],
+      "orders": [],
+      "action": true
+    },
+    {
+      "id": "586a",
+      "name": "Fathima Rushda U",
+      "email": "rushdha@gmail.com",
+      "password": "9567",
+      "confirmpassword": "9567",
+      "wishlist": [],
+      "cart": [],
+      "orders": [],
+      "action": true
+    },
+    {
+      "id": "fcb0",
+      "name": "aaa",
+      "email": "aaa@gmail.com",
+      "password": "1122",
+      "confirmpassword": "1122",
+      "wishlist": [],
+      "cart": [
+        {
+          "id": "2",
+          "name": "Peepstar Sparx Jugnoo",
+          "type": "mens",
+          "price": 1300,
+          "image": "https://www.specsmakers.in/cdn/shop/files/DSC_1685.jpg?v=1762433266&width=980"
+        }
+      ],
+      "orders": [
+        {
+          "orderId": 1764251860411,
+          "date": "11/27/2025, 7:27:40 PM",
+          "items": [
+            {
+              "id": "2",
+              "name": "Peepstar Sparx Jugnoo",
+              "type": "mens",
+              "price": 1300,
+              "image": "https://www.specsmakers.in/cdn/shop/files/DSC_1685.jpg?v=1762433266&width=980",
+              "qty": 1
+            },
+            {
+              "id": "3",
+              "name": "Peepstar Blynx Jugnoo",
+              "type": "mens",
+              "price": 1990,
+              "image": "https://www.specsmakers.in/cdn/shop/files/IMG_0085_de7cd4cb-2709-43a0-b3c3-afa00314e57f.jpg?v=1762423744&width=740",
+              "qty": 1
+            },
+            {
+              "id": "4",
+              "name": "Peepstar Twinkle Jugnoo",
+              "type": "mens",
+              "price": 1250,
+              "image": "https://www.specsmakers.in/cdn/shop/files/DSC_1700.jpg?v=1762498707&width=980",
+              "qty": 1
+            }
+          ],
+          "total": 4540,
+          "status": "Pending"
+        },
+        {
+          "orderId": 1764287821680,
+          "date": "11/28/2025, 5:27:01 AM",
+          "items": [
+            {
+              "id": "6",
+              "name": "Peepstar Safari Edit",
+              "type": "mens",
+              "price": 1370,
+              "image": "https://www.specsmakers.in/cdn/shop/files/DSC_0434_35e0c02e-085d-4b7d-bea0-86e304f7023f.jpg?v=1761819495&width=980",
+              "qty": 1
+            },
+            {
+              "id": "7",
+              "name": "Peepstar Safari Edit",
+              "type": "mens",
+              "price": 999,
+              "image": "https://www.specsmakers.in/cdn/shop/files/DSC_0449_a8649d60-3086-4bb9-aeab-29959fac7de7.jpg?v=1761817642&width=980",
+              "qty": 1
+            },
+            {
+              "id": "5",
+              "name": "Peepstar Glowster Jugnoo",
+              "type": "mens",
+              "price": 1000,
+              "image": "https://www.specsmakers.in/cdn/shop/files/IMG_0010_1_0df7dd46-977b-44ea-a0ff-c04f23791d10.jpg?v=1762406587&width=980",
+              "qty": 1
+            },
+            {
+              "id": "8",
+              "name": "Specsmakers Flex",
+              "type": "mens",
+              "price": 1699,
+              "image": "https://www.specsmakers.in/cdn/shop/files/3_12cf453b-d36f-455b-80b0-619070d430be.jpg?v=1758869856&width=980",
+              "qty": 1
+            }
+          ],
+          "total": 5068,
+          "status": "Pending"
+        },
+        {
+          "orderId": 1764300526033,
+          "date": "11/28/2025, 8:58:46 AM",
+          "items": [
+            {
+              "id": "2",
+              "name": "Peepstar Sparx Jugnoo",
+              "type": "mens",
+              "price": 1300,
+              "image": "https://www.specsmakers.in/cdn/shop/files/DSC_1685.jpg?v=1762433266&width=980",
+              "qty": 10
+            }
+          ],
+          "total": 13000,
+          "status": "Pending"
+        },
+        {
+          "orderId": 1764303572538,
+          "date": "11/28/2025, 9:49:32 AM",
+          "items": [
+            {
+              "id": "2",
+              "name": "Peepstar Sparx Jugnoo",
+              "type": "mens",
+              "price": 1300,
+              "image": "https://www.specsmakers.in/cdn/shop/files/DSC_1685.jpg?v=1762433266&width=980",
+              "qty": 1
+            },
+            {
+              "id": "3",
+              "name": "Peepstar Blynx Jugnoo",
+              "type": "mens",
+              "price": 1990,
+              "image": "https://www.specsmakers.in/cdn/shop/files/IMG_0085_de7cd4cb-2709-43a0-b3c3-afa00314e57f.jpg?v=1762423744&width=740",
+              "qty": 1
+            }
+          ],
+          "total": 3290,
+          "status": "Pending"
+        }
+      ],
+      "action": "true"
+    },
+    {
+      "id": "01d7",
+      "name": "sumi",
+      "email": "sumi@gmail.com",
+      "password": "1212",
+      "confirmpassword": "1212",
+      "wishlist": [],
+      "cart": [],
+      "orders": [],
+      "action": "true"
+    }
+  ],
+  "admin": [
+    {
+      "id": "1",
+      "name": "ramees",
+      "email": "ramees@gmail.com",
+      "password": "1234"
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+.dashboard-container {
+    display: flex;
+}
+
+.dashboard-content {
+    margin-left: 240px; 
+    padding: 30px;
+    width: 100%;
+}
+
+.dashboard-content h1 {
+    font-size: 28px;
+    margin-bottom: 25px;
+}
+
+.stats-container {
+    display: flex;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+.stat-card {
+    background: white;
+    padding: 25px;
+    width: 230px;
+    border-radius: 12px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.15);
+    transition: 0.25s ease;
+}
+
+.stat-card:hover {
+    transform: translateY(-5px);
+}
+
+.stat-card h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #444;
+}
+
+.stat-card p {
+    font-size: 22px;
+    font-weight: bold;
+}

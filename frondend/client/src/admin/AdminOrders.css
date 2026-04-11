@@ -1,0 +1,90 @@
+/* Main container */
+.orders-container {
+    margin-left: 240px;
+    padding: 30px;
+    background: #f5f6fa;
+    min-height: 100vh;
+}
+
+/* Page title */
+.orders-title {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 25px;
+    color: #222;
+}
+
+/* Table wrapper (shadow + rounded corners) */
+.table-wrapper {
+    background: #fff;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.08);
+}
+
+/* Table styling */
+.orders-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 16px;
+}
+
+/* Table head styling */
+.orders-table thead {
+    background: #1e1f26;
+    color: white;
+}
+
+.orders-table th {
+    padding: 14px 12px;
+    text-align: left;
+}
+
+/* Table rows */
+.orders-table td {
+    padding: 14px 12px;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+/* Row hover effect */
+.orders-table tbody tr:hover {
+    background: #f0f4ff;
+    transition: 0.2s ease;
+}
+
+/* Status badges */
+.status-badge {
+    padding: 6px 12px;
+    border-radius: 20px;
+    font-weight: 600;
+    font-size: 14px;
+    text-transform: capitalize;
+}
+
+/* Colors based on order status */
+.status-badge.pending {
+    background: #fff7da;
+    color: #b58d00;
+}
+
+.status-badge.completed {
+    background: #d6ffe6;
+    color: #0d8a3a;
+}
+
+.status-badge.cancelled {
+    background: #ffe1e1;
+    color: #cc0000;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .orders-container {
+        margin-left: 0;
+        padding: 15px;
+    }
+
+    .table-wrapper {
+        overflow-x: scroll;
+    }
+}

@@ -1,0 +1,139 @@
+/* Only affects Admin Product Page */
+.admin-products-page {
+    display: flex;
+    background: #f5f6fa;
+    min-height: 100vh;
+}
+
+/* Right content */
+.admin-products-page .product-content {
+    margin-left: 260px; /* Align with Sidebar */
+    padding: 25px;
+    width: calc(100% - 260px);
+}
+
+/* Title */
+.admin-products-page .page-title {
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+/* Add Button */
+.admin-products-page .add-btn {
+    background: #00acee;
+    border: none;
+    color: #fff;
+    padding: 10px 18px;
+    font-size: 16px;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-bottom: 15px;
+    display: inline-block;
+}
+.admin-products-page .add-btn:hover {
+    background: #0088c7;
+}
+
+/* Table styling */
+.admin-products-page .table-wrapper {
+    background: #fff;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 3px 12px rgba(0,0,0,0.08);
+    overflow-x: auto;
+}
+
+.admin-products-page .product-table {
+    width: 100%;
+    border-collapse: collapse;
+    min-width: 900px;
+}
+
+.admin-products-page .product-table th {
+    background: #1e1f26;
+    color: #fff;
+    padding: 12px;
+}
+
+.admin-products-page .product-table td {
+    padding: 12px;
+    font-size: 15px;
+    border-bottom: 1px solid #eee;
+}
+
+/* Image fix */
+.admin-products-page .product-img {
+    width: 90px;
+    height: 70px;
+    object-fit: contain;
+    background: #fff;
+}
+
+/* Action Buttons */
+.admin-products-page .edit-btn,
+.admin-products-page .delete-btn {
+    border: none;
+    padding: 7px 13px;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-right: 7px;
+}
+
+/* Edit Button */
+.edit-btn {
+    background: #ffb020;
+    color: white;
+    padding: 8px 14px;
+    border: none;
+    border-radius: 6px;
+    font-size: 14px;
+    cursor: pointer;
+    font-weight: 600;
+    transition: 0.25s ease;
+}
+
+.edit-btn:hover {
+    background: #e69909;
+    transform: scale(1.05);
+}
+
+/* Delete Button */
+.delete-btn {
+    background: #ff4a4a;
+    color: white;
+    padding: 8px 14px;
+    border: none;
+    border-radius: 6px;
+    font-size: 14px;
+    cursor: pointer;
+    font-weight: 600;
+    transition: 0.25s ease;
+}
+
+.delete-btn:hover {
+    background: #e60000;
+    transform: scale(1.05);
+}
+
+
+/* Add Product Button - Professional */
+.add-product-btn {
+    background: linear-gradient(135deg, #007bff, #0056d2);
+    color: white;
+    border: none;
+    padding: 12px 22px;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: 600;
+    letter-spacing: 0.4px;
+    box-shadow: 0px 4px 10px rgba(0, 123, 255, 0.3);
+    transition: 0.25s ease;
+}
+
+.add-product-btn:hover {
+    background: linear-gradient(135deg, #005ce6, #0041ad);
+    box-shadow: 0px 6px 14px rgba(0, 123, 255, 0.4);
+    transform: translateY(-2px);
+}
