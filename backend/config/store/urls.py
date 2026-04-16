@@ -10,4 +10,8 @@ urlpatterns = [
     
     path('wishlist/', WishlistView.as_view()),
     path('wishlist/<int:pk>/', WishlistDetailView.as_view()),
+    
+    path('order/create/', CreateOrderView.as_view()),
+    path('payment/success/',PaymentSuccessView.as_view()),
+    
 ]

@@ -1,5 +1,5 @@
 from rest_framework import serializers
-from .models import Product,Cart,Wishlist
+from .models import Product,Cart,Wishlist,OrderItem,Order
 from django.contrib.auth.models import User 
 
 
@@ -24,7 +24,7 @@ class CartSerializer(serializers.ModelSerializer):
         fields = ['id', 'product', 'product_id', 'quantity']
         read_only_fields = ['user']
         
-# serializers.py
+
 class WishlistSerializer(serializers.ModelSerializer):
     product = ProductSerializer(read_only=True)
 
@@ -36,6 +36,20 @@ class WishlistSerializer(serializers.ModelSerializer):
 
     class Meta:
         model = Wishlist
-        fields = ['id', 'product', 'product_id']        
+        fields = ['id', 'product', 'product_id']      
+        
 
+class OrderItemSerializer(serializers.ModelSerializer):
+    product = ProductSerializer()
+    
+    class Meta:
+        model = OrderItem
+        fields = ['product','quantity']
+
+class OrderSerializer(serializers.ModelSerializer):
+    items = OrderItemSerializer(many=True ,read_only=True)
+    
+    class Meta:
+        model = Order
+        fields = ['id','created','total','status','items']
         

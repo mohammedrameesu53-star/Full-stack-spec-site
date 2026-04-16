@@ -16,6 +16,10 @@ import EditProducts from "./admin/EditProducts"
 import UserManagement from "./admin/userManagement"
 import AddProducts from "./admin/AddProducts"
 import ProductDetails from "./components/ProductDetails.jsx";
+import VerifyOTP from "./components/VerifyOTP.jsx"
+import ForgotPassword from "./components/ForgotPassword.jsx"
+import NewPassword from "./components/NewPassword.jsx"
+import PasswordResetVerifyOTP from "./components/PasswordResetVerifyOTP.jsx"
 
 
 function App() {
@@ -38,6 +42,10 @@ function App() {
                 <Route path="/product/:id" element={<ProductDetails />} />
                 <Route path="/cart" element={<Cart />} />
                 <Route path="/wishlist" element={<Wishlist />} />
+                <Route path="/verify-otp" element={<VerifyOTP />} />
+                <Route path="/forgot-password" element={<ForgotPassword />} />
+                <Route path="/verify-otp/reset" element={<PasswordResetVerifyOTP />} />
+                <Route path="/new-password" element={<NewPassword/>} />
 
               </Routes>
 
@@ -81,13 +89,13 @@ function App() {
           }
         />
 
-        <Route 
-        path="/admin/AddProducts"
-        element={
-          <AdminPrivateRoute>
-            <AddProducts/>
-          </AdminPrivateRoute>
-        }
+        <Route
+          path="/admin/AddProducts"
+          element={
+            <AdminPrivateRoute>
+              <AddProducts />
+            </AdminPrivateRoute>
+          }
         />
 
         <Route

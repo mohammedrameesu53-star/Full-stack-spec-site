@@ -3,20 +3,33 @@ import { useState } from "react"
 import './AdminLogin.css'
 import Swal from "sweetalert2"
 
+
 export default function AdminLogin() {
-    const [email, setEmail] = useState("")
+    const [username, setUsername] = useState("")
     const [pass, setPass] = useState("")
 
     const handleLogin = async () => {
-        const res = await axios.get("http://localhost:4000/admin")
-        const admin = res.data[0];
- 
-        if (email === admin.email && pass === admin.password) {
-            localStorage.setItem("admin", JSON.stringify({ email }))
+
+        try {
+            const res = await axios.post(
+                "http://127.0.0.1:8000/api/admin/login/",
+                {
+                    username: username,
+                    password: pass
+                }
+            )
+
+            localStorage.setItem("adminToken", res.data.access);
+            localStorage.setItem("adminRefresh", res.data.refresh);
+
+            Swal.fire({
+                title: "Login Successful",
+                icon: "success"
+            });
+
             window.location.href = "/admin/dashboard"
-            
-        } else {
-            alert("Invalid admin credentials")
+
+        } catch (err) {
             Swal.fire({
                 icon: "error",
                 title: "Oops...",
@@ -24,13 +37,13 @@ export default function AdminLogin() {
             });
         }
     }
-  
+
     return (
         <div className="admin-container">
             <div className="admin-card">
 
                 <h2>Admin Login</h2>
-                <input type="email" placeholder="Email" onChange={(e) => setEmail(e.target.value)} value={email} className="admin-input" />
+                <input type="username" placeholder="Username" onChange={(e) => setUsername(e.target.value)} value={username} className="admin-input" />
                 <br />
                 <br />
                 <input type="password" placeholder="Password" onChange={(e) => setPass(e.target.value)} value={pass} className="admin-input" />

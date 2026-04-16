@@ -45,6 +45,18 @@ export default function ProductList() {
         const token = localStorage.getItem("access");
 
         try {
+
+            const res = await api.get("cart/")
+            const isExist = res.data.find(c => c.product.id === item.id);
+
+            if (isExist){
+                Swal.fire({
+                    title: "Already in cart",
+                    icon: "info"
+                })
+                return;
+            }   
+
             await api.post(
                 "cart/",
                 {

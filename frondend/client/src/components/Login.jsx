@@ -61,8 +61,7 @@ export default function Login() {
                 />
                 <button type="submit" className="login-btn">Login</button>
                 <p className="error-msg">{err}</p>
-                <p>If you have no account  <a style={{ color: "blue", cursor: "pointer" }} onClick={() => navigate("/register")}>Create account</a></p>
-
+                <p><a style={{ color: "blue", cursor: "pointer" }} onClick={() => navigate("/register")}>Create new account</a> or <a style={{ color: "blue", cursor: "pointer" }} onClick={() => navigate("/forgot-password")}>Forgot Password?</a></p>
             </form>
         </div>
     )

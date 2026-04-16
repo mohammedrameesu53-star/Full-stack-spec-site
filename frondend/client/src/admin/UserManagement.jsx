@@ -1,38 +1,34 @@
 import { useEffect, useState } from "react";
 import AdminSideBar from "./AdminSidebar";
-import axios from "axios";
-import './UserManagement.css'
+import './UserManagement.css';
+import api from "../api/adminApi";
 
 export default function UserManagement() {
     const [user, setUser] = useState([])
+ 
+    const loadUser = async () => {
+        try {
+            const res = await api.get('users/')
+            setUser(res.data);
+        } catch (err) {
+            console.log(err)
+        }
+
+    }
+
     useEffect(() => {
-        axios.get("http://localhost:4000/users")
-            .then((res) => setUser(res.data))
+        loadUser();
     }, [])
 
-    const loadUser = async () => {
-        await axios.get('http://localhost:3000/users')
-        .then((res) => setUser(res.data))
-    }
-
-    useEffect(()=>{
-        loadUser();
-    })
-    const handleBlock = async (id) => {
-        const res = await axios.get(`http://localhost:4000/users/${id}`)
-        const user = res.data;
-        const updatedUser = { ...user, action: false }
-        await axios.put(`http://localhost:4000/users/${id}`, updatedUser)
-        loadUser();
-    }
-
-    const handleActive = async (id) => {
-        const res = await axios.get(`http://localhost:4000/users/${id}`)
-        const user = res.data;
-        const updatedUser = { ...user, action: true }
-        await axios.put(`http://localhost:4000/users/${id}`, updatedUser)
-        loadUser();
-    }
+    const handleToggle = async (id) => {
+        try {
+            await api.patch(`/users/toggle/${id}/`);
+            loadUser();
+        } catch (err) {
+            console.log(err);
+        }
+    };
+    
     return (
         <div className="um-container">
             <AdminSideBar />
@@ -58,19 +54,21 @@ export default function UserManagement() {
                                     <td>{u.id}</td>
                                     <td>{u.name}</td>
                                     <td>{u.email}</td>
-                                    <td>{u.wishlist.length}</td>
-                                    <td>{u.cart.length}</td>
-                                    <td>{u.orders.length}</td>
+                                    <td>{u.wishlist}</td>
+                                    <td>{u.cart}</td>
+                                    <td>{u.order}</td>
                                     <td>
-                                        {u.action ? (
+                                        {u.is_active ? (
                                             <span className="active-status">Active</span>
                                         ) : (
                                             <span className="blocked-status">Blocked</span>
                                         )}
                                     </td>
+
                                     <td>
-                                        <button className="block-btn" onClick={() => handleBlock(u.id)}>Block</button>
-                                        <button className="active-btn" onClick={() => handleActive(u.id)}>Active</button>
+                                        <button onClick={() => handleToggle(u.id)}>
+                                            {u.is_active ? "Block" : "Activate"}
+                                        </button>
                                     </td>
 
                                 </tr>

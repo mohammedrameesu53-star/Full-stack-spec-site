@@ -1,26 +1,39 @@
-import axios from "axios";
 import { useState } from "react";
 import "./AddProducts.css";
-import api from "../api/api";
+import api from "../api/adminApi";
+import Swal from "sweetalert2";
+import { useNavigate } from "react-router-dom";
 
 export default function AddProducts() {
+    const navigate = useNavigate();
+
     const [product, setProduct] = useState({
         name: "",
-        type: "",
+        category: "",
         price: "",
+        description: "",
+        qty: "",
         image: ""
     });
 
     const handleAdd = async () => {
-        const res = await api.get("http://localhost:3000/products");
-        const id = res.data.length + 1;
+        try {
+            await api.post("products/", product);
 
-        const newProduct = { id, ...product };
-        await axios.post("http://localhost:3000/products", newProduct);
+            Swal.fire({
+                title: "Product Added Successfully!",
+                icon: "success"
+            });
 
-        alert("Product Added Successfully!");
+            navigate("/admin/products");
 
-        setProduct({ name: "", type: "", price: "", image: "" });
+        } catch (err) {
+            Swal.fire({
+                title: "Error",
+                text: "Failed to add product",
+                icon: "error"
+            });
+        }
     };
 
     return (
@@ -49,20 +62,37 @@ export default function AddProducts() {
                     </div>
 
                     <div className="form-group">
-                        <label>Type</label>
+                        <label>Category</label>
                         <input 
                             type="text" 
-                            value={product.type}
-                            onChange={(e) => setProduct({ ...product, type: e.target.value })}
+                            value={product.category}
+                            onChange={(e) => setProduct({ ...product, category: e.target.value })}
                         />
                     </div>
 
                     <div className="form-group">
                         <label>Price</label>
                         <input 
-                            type="text" 
+                            type="number" 
                             value={product.price}
                             onChange={(e) => setProduct({ ...product, price: e.target.value })}
+                        />
+                    </div>
+
+                    <div className="form-group">
+                        <label>Description</label>
+                        <textarea
+                            value={product.description}
+                            onChange={(e) => setProduct({ ...product, description: e.target.value })}
+                        />
+                    </div>
+
+                    <div className="form-group">
+                        <label>Quantity</label>
+                        <input 
+                            type="number" 
+                            value={product.qty}
+                            onChange={(e) => setProduct({ ...product, qty: e.target.value })}
                         />
                     </div>
 
@@ -75,7 +105,9 @@ export default function AddProducts() {
                         />
                     </div>
 
-                    <button className="add-btn" onClick={handleAdd}>Add Product</button>
+                    <button className="add-btn" onClick={handleAdd}>
+                        Create Product
+                    </button>
                 </div>
 
             </div>

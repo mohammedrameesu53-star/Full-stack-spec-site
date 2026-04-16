@@ -2,9 +2,9 @@ import { Children } from "react"
 import { Navigate } from "react-router-dom"
 
 export default function AdminPrivateRoute({children }){
-    const admin =JSON.parse(localStorage.getItem("admin"))
+    const adminToken =localStorage.getItem("adminToken")
 
-    if(!admin){
+    if(!adminToken){
         return <Navigate to='/admin/login' />
     }
 

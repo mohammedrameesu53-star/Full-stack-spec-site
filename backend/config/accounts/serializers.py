@@ -20,10 +20,10 @@ class RegisterSerializer(serializers.ModelSerializer):
             })
 
 
-        if User.objects.filter(email=data['email']).exists():
-            raise serializers.ValidationError({
-                "email": "Email already exists"
-            })
+        # if User.objects.filter(email=data['email']).exists():
+        #     raise serializers.ValidationError({
+        #         "email": "Email already exists"
+        #     })
 
         return data
 

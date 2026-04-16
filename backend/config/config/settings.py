@@ -41,7 +41,10 @@ INSTALLED_APPS = [
     'rest_framework',
     'corsheaders',
     'store',
-    'accounts'
+    'accounts',
+    'admin_panel',
+    'drf_yasg'
+   
 ]
 
 MIDDLEWARE = [
@@ -160,5 +163,11 @@ EMAIL_HOST = 'smtp.gmail.com'
 EMAIL_PORT = 587
 EMAIL_USE_TLS = True
 
-EMAIL_HOST_USER = 'mohammedrameesu@gmail.com'
-EMAIL_HOST_PASSWORD = 'dvtz ugha hifh lxdw'
+EMAIL_HOST_USER = 'mohammedrameesu53@gmail.com'
+EMAIL_HOST_PASSWORD = 'rkwt dgwm yvus cjxg'
+
+DEFAULT_FROM_EMAIL = EMAIL_HOST_USER
+
+
+RAZORPAY_KEY = "rzp_test_Scc4qc3UYCySeL"
+RAZORPAY_SECRET = "Gnwh0g1Kx3UhLLIvvoeDaMl6"

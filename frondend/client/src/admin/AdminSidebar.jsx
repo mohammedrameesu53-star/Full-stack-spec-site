@@ -17,7 +17,7 @@ export default function AdminSideBar() {
                 <li 
                 className="logout-btn"
                 onClick={()=>{
-                    localStorage.removeItem("admin")
+                    localStorage.clear()
                     window.location.href = "/admin/login";
                 }}
                 >Logout</li>
