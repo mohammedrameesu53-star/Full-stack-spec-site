@@ -4,6 +4,7 @@ import './Register.css'
 import { useNavigate } from "react-router-dom";
 import { useUser } from "./UserContext";
 import Swal from "sweetalert2";
+import api from "../api/api";
 
 export default function Register() {
     const [form, setForm] = useState({ name: "", email: "", password: "", confirmpassword: "" })
@@ -38,8 +39,8 @@ export default function Register() {
             return;
         }
         try{
-        const res = await axios.post(
-            "http://127.0.0.1:8000/api/accounts/register/",
+        const res = await api.post(
+            "accounts/register/",
             {
                 username: form.name,
                 email: form.email,

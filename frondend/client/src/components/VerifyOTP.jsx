@@ -2,6 +2,7 @@ import { useState } from "react";
 import axios from "axios";
 import { useLocation, useNavigate } from "react-router-dom";
 import Swal from "sweetalert2";
+import api from "../api/api";
 
 export default function VerifyOTP() {
     const [otp, setOtp] = useState("");
@@ -14,8 +15,8 @@ export default function VerifyOTP() {
         e.preventDefault();
 
         try {
-            await axios.post(
-                "http://127.0.0.1:8000/api/accounts/verify-otp/",
+            await api.post(
+                "accounts/verify-otp/",
                 {
                     user_id,
                     otp

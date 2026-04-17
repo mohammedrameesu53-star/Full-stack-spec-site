@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const api = axios.create({
-    baseURL: "http://127.0.0.1:8000/api/",
+    baseURL: "https://full-stack-spec-site.onrender.com/api/",
 });
 
 
@@ -29,7 +29,7 @@ api.interceptors.response.use(
 
             try {
                 const res = await axios.post(
-                    "http://127.0.0.1:8000/api/accounts/refresh/",
+                    "https://full-stack-spec-site.onrender.com/api/accounts/refresh/",
                     { refresh }
                 );
 

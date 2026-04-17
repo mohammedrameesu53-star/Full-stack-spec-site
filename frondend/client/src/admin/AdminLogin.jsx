@@ -2,7 +2,7 @@ import axios from "axios"
 import { useState } from "react"
 import './AdminLogin.css'
 import Swal from "sweetalert2"
-
+import api from "../api/adminApi"
 
 export default function AdminLogin() {
     const [username, setUsername] = useState("")
@@ -11,8 +11,8 @@ export default function AdminLogin() {
     const handleLogin = async () => {
 
         try {
-            const res = await axios.post(
-                "http://127.0.0.1:8000/api/admin/login/",
+            const res = await api.post(
+                "login/",
                 {
                     username: username,
                     password: pass
