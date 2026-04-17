@@ -5,7 +5,6 @@ import ProductList from "./components/ProductList"
 import Register from "./components/Register"
 import { Routes, Route } from "react-router-dom"
 import Wishlist from "./pages/Wishlist"
-import Orders from "./pages/Orders"
 import Navbar from "./components/Navbar"
 import AdminPrivateRoute from "./admin/AdminPrivateRoute"
 import AdminLogin from "./admin/AdminLogin"
@@ -20,7 +19,6 @@ import VerifyOTP from "./components/VerifyOTP.jsx"
 import ForgotPassword from "./components/ForgotPassword.jsx"
 import NewPassword from "./components/NewPassword.jsx"
 import PasswordResetVerifyOTP from "./components/PasswordResetVerifyOTP.jsx"
-import NotFound from "./notfound.jsx"
 
 
 function App() {
@@ -30,7 +28,7 @@ function App() {
       <Routes>
 
         <Route
-          path="/"
+          path="/*"
           element={
             <>
 
@@ -106,7 +104,6 @@ function App() {
               <AdminOrders />
             </AdminPrivateRoute>
           } />
-<Route path="*" element={<NotFound />} />
       </Routes>
 
 
