@@ -20,6 +20,7 @@ import VerifyOTP from "./components/VerifyOTP.jsx"
 import ForgotPassword from "./components/ForgotPassword.jsx"
 import NewPassword from "./components/NewPassword.jsx"
 import PasswordResetVerifyOTP from "./components/PasswordResetVerifyOTP.jsx"
+import NotFound from "./notfound.jsx"
 
 
 function App() {
@@ -105,7 +106,7 @@ function App() {
               <AdminOrders />
             </AdminPrivateRoute>
           } />
-
+<Route path="*" element={NotFound} />
       </Routes>
 
 
