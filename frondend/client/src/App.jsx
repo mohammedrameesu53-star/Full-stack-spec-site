@@ -13,7 +13,7 @@ import AdminDashboard from "./admin/AdminDashboard"
 import AdminProducts from "./admin/AdminProducts"
 import AdminOrders from "./admin/AdminOrders"
 import EditProducts from "./admin/EditProducts"
-import UserManagement from "./admin/userManagement"
+import UserManagement from "./admin/UserManagement.jsx"
 import AddProducts from "./admin/AddProducts"
 import ProductDetails from "./components/ProductDetails.jsx";
 import VerifyOTP from "./components/VerifyOTP.jsx"
