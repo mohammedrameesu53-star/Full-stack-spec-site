@@ -106,7 +106,7 @@ function App() {
               <AdminOrders />
             </AdminPrivateRoute>
           } />
-<Route path="*" element={NotFound} />
+<Route path="*" element={<NotFound />} />
       </Routes>
 
 
