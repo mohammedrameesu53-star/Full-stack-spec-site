@@ -167,7 +167,9 @@ EMAIL_PORT = 587
 EMAIL_USE_TLS = True
 
 EMAIL_HOST_USER = 'mohammedrameesu53@gmail.com'
-EMAIL_HOST_PASSWORD = 'rkwt dgwm yvus cjxg'
+EMAIL_HOST_PASSWORD = 'umvd bpej kgtm jjii'
+
+EMAIL_TIMEOUT = 20
 
 DEFAULT_FROM_EMAIL = EMAIL_HOST_USER
 
