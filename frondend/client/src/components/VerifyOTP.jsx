@@ -39,17 +39,21 @@ export default function VerifyOTP() {
     };
 
     return (
-        <div>
-            <h2>Enter OTP</h2>
-            <form onSubmit={handleVerify}>
-                <input
-                    type="text"
-                    placeholder="Enter OTP"
-                    value={otp}
-                    onChange={(e) => setOtp(e.target.value)}
-                />
-                <button type="submit">Verify</button>
-            </form>
+        <div className="auth-container">
+            <div className="auth-card">
+                <h2>Verify your Email</h2>
+                <p style={{ color: '#666', marginBottom: '1rem' }}>Enter the code sent to your inbox</p>
+                <form onSubmit={handleVerify}>
+                    <input
+                        type="text"
+                        placeholder="Enter 6-digit OTP"
+                        value={otp}
+                        onChange={(e) => setOtp(e.target.value)}
+                        maxLength="6"
+                    />
+                    <button type="submit">Verify Account</button>
+                </form>
+            </div>
         </div>
     );
 }

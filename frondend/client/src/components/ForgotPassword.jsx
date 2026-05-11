@@ -6,7 +6,7 @@ export default function ForgotPassword() {
   const [email, setEmail] = useState("");
   const navigate = useNavigate();
 
- const handleSubmit = async (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
 
     try {
@@ -23,14 +23,21 @@ export default function ForgotPassword() {
 
 
   return (
-    <form onSubmit={handleSubmit}>
-      <h2>Reset Password</h2>
-      <input
-        type="email"
-        placeholder="Enter email"
-        onChange={(e) => setEmail(e.target.value)}
-      />
-      <button type="submit">Send OTP</button>
-    </form>
+    <div className="auth-container">
+      <div className="auth-card">
+        <h2>Reset Password</h2>
+        <p style={{ color: '#666', marginBottom: '1rem' }}>We'll send a reset link to your email</p>
+        <form onSubmit={handleSubmit}>
+          <input
+            type="email"
+            placeholder="name@example.com"
+            onChange={(e) => setEmail(e.target.value)}
+            required
+          />
+          <button type="submit">Send OTP</button>
+        </form>
+      </div>
+    </div>
   );
 }
+
