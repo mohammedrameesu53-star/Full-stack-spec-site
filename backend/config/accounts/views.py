@@ -34,6 +34,7 @@ class RegisterView(APIView):
             )
             
             try:
+                
                 send_mail(
                     subject="Verify your account 🔐",
                     message=f"Your OTP is: {otp_code}",
@@ -41,13 +42,19 @@ class RegisterView(APIView):
                     recipient_list=[user.email],
                     fail_silently=False,
                 )   
+                return Response({
+                "massage":"User created. Please verify OTP",
+                "user_id": user.id
+                
+            },status=201)    
+                
             except Exception as e:
                 print("Email error:", e)
                 
-            return Response({
-                "massage":"User created. Please verify OTP",
-                "user_id": user.id
-            },status=201)    
+                return Response({
+                "error": "Failed to send OTP email"
+            }, status=500)
+          
             
         return Response(serializer.errors, status=400)
     
