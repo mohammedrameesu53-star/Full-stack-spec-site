@@ -27,6 +27,11 @@ function App() {
     <>
       <Routes>
 
+        <Route path="/verify-otp" element={<VerifyOTP />} />
+        <Route path="/forgot-password" element={<ForgotPassword />} />
+        <Route path="/verify-otp/reset" element={<PasswordResetVerifyOTP />} />
+        <Route path="/new-password" element={<NewPassword />} />
+
         <Route
           path="/*"
           element={
@@ -41,11 +46,6 @@ function App() {
                 <Route path="/product/:id" element={<ProductDetails />} />
                 <Route path="/cart" element={<Cart />} />
                 <Route path="/wishlist" element={<Wishlist />} />
-                <Route path="/verify-otp" element={<VerifyOTP />} />
-                <Route path="/forgot-password" element={<ForgotPassword />} />
-                <Route path="/verify-otp/reset" element={<PasswordResetVerifyOTP />} />
-                <Route path="/new-password" element={<NewPassword/>} />
-
               </Routes>
 
             </>
