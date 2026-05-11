@@ -26,22 +26,23 @@ class RegisterView(APIView):
             user.save()
             
             otp_code = generate_otp()
+            print(otp_code)
             
             OTP.objects.update_or_create(
                 user=user,
                 defaults={"otp": otp_code}
             )
             
-            try:
-                send_mail(
-                    subject="Verify your account 🔐",
-                    message=f"Your OTP is: {otp_code}",
-                    from_email=settings.EMAIL_HOST_USER,
-                    recipient_list=[user.email],
-                    fail_silently=False,
-                )   
-            except Exception as e:
-                print("Email error:", e)
+            # try:
+            #     send_mail(
+            #         subject="Verify your account 🔐",
+            #         message=f"Your OTP is: {otp_code}",
+            #         from_email=settings.EMAIL_HOST_USER,
+            #         recipient_list=[user.email],
+            #         fail_silently=False,
+            #     )   
+            # except Exception as e:
+            #     print("Email error:", e)
                 
             return Response({
                 "massage":"User created. Please verify OTP",

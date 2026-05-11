@@ -63,7 +63,7 @@ export default function Register() {
             confirmpassword: ""
         });
 
-        navigate('/verify-otp', {state: { user_id: res.data.user_id }});
+        navigate("/verify-otp", {state: { user_id: res.data.user_id }});
 
     } catch (err) {
         console.log(err.response?.data);

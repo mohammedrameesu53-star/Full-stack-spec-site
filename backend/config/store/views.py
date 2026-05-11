@@ -147,6 +147,7 @@ class WishlistDetailView(APIView):
     permission_classes = [IsAuthenticated]
 
     def delete(self, request, pk):
+                     
         item = get_object_or_404(Wishlist, id=pk, user=request.user)
         item.delete()
         return Response({"message": "Removed from wishlist"})    
