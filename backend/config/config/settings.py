@@ -161,13 +161,15 @@ SIMPLE_JWT = {
     "REFRESH_TOKEN_LIFETIME": timedelta(days=1),
 }
 
+import os
+
 EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
 EMAIL_HOST = 'smtp-relay.brevo.com'
 EMAIL_PORT = 587
 EMAIL_USE_TLS = True
 
-EMAIL_HOST_USER = 'aaf987001@smtp-brevo.com'
-EMAIL_HOST_PASSWORD = 'xsmtpsib-7c6696e7a2483b8804761a0c3c25c02de389613153ce3239b4777316d937b257-i6nchzOeJq0AJSZ3'
+EMAIL_HOST_USER = os.environ.get("EMAIL_HOST_USER")
+EMAIL_HOST_PASSWORD = os.environ.get("EMAIL_HOST_PASSWORD")
 
 EMAIL_TIMEOUT = 20
 
