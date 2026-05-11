@@ -102,16 +102,17 @@ class RequestPasswordResetView(APIView):
 
         otp = str(random.randint(100000, 999999))
         RESET_OTP[email] = otp
-        try:
-            send_mail(
-                "Password Reset OTP",
-                f"Your OTP is {otp}",
-                settings.EMAIL_HOST_USER,
-                [email],
-                fail_silently=True,
-            )
-        except Exception as e:
-            print("Email error:", e)   
+        print(otp)
+        # try:
+        #     send_mail(
+        #         "Password Reset OTP",
+        #         f"Your OTP is {otp}",
+        #         settings.EMAIL_HOST_USER,
+        #         [email],
+        #         fail_silently=True,
+        #     )
+        # except Exception as e:
+        #     print("Email error:", e)   
 
         return Response({"message": "OTP sent to email"})              
     
