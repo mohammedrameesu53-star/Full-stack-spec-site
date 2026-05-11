@@ -54,6 +54,12 @@ class RegisterView(APIView):
             #     return Response({
             #     "error": "Failed to send OTP email"
             # }, status=500)
+            
+            return Response({
+                "massage":"User created. Please verify OTP",
+                "user_id": user.id
+                
+            },status=201)
           
             
         return Response(serializer.errors, status=400)
