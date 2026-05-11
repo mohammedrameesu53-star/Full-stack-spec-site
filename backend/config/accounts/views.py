@@ -33,16 +33,16 @@ class RegisterView(APIView):
                 defaults={"otp": otp_code}
             )
             
-            # try:
-            #     send_mail(
-            #         subject="Verify your account 🔐",
-            #         message=f"Your OTP is: {otp_code}",
-            #         from_email=settings.EMAIL_HOST_USER,
-            #         recipient_list=[user.email],
-            #         fail_silently=False,
-            #     )   
-            # except Exception as e:
-            #     print("Email error:", e)
+            try:
+                send_mail(
+                    subject="Verify your account 🔐",
+                    message=f"Your OTP is: {otp_code}",
+                    from_email=settings.EMAIL_HOST_USER,
+                    recipient_list=[user.email],
+                    fail_silently=False,
+                )   
+            except Exception as e:
+                print("Email error:", e)
                 
             return Response({
                 "massage":"User created. Please verify OTP",
@@ -103,16 +103,16 @@ class RequestPasswordResetView(APIView):
         otp = str(random.randint(100000, 999999))
         RESET_OTP[email] = otp
         print(otp)
-        # try:
-        #     send_mail(
-        #         "Password Reset OTP",
-        #         f"Your OTP is {otp}",
-        #         settings.EMAIL_HOST_USER,
-        #         [email],
-        #         fail_silently=True,
-        #     )
-        # except Exception as e:
-        #     print("Email error:", e)   
+        try:
+            send_mail(
+                "Password Reset OTP",
+                f"Your OTP is {otp}",
+                settings.EMAIL_HOST_USER,
+                [email],
+                fail_silently=True,
+            )
+        except Exception as e:
+            print("Email error:", e)   
 
         return Response({"message": "OTP sent to email"})              
     
