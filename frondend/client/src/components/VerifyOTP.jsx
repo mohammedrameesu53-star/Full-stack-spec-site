@@ -3,6 +3,8 @@ import axios from "axios";
 import { useLocation, useNavigate } from "react-router-dom";
 import Swal from "sweetalert2";
 import api from "../api/api";
+import "./OTP.css"
+
 
 export default function VerifyOTP() {
     const [otp, setOtp] = useState("");

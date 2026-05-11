@@ -1,6 +1,7 @@
 import { useState } from "react";
 import api from "../api/api";
 import { useNavigate } from "react-router-dom";
+import "./OTP.css"
 
 export default function ForgotPassword() {
   const [email, setEmail] = useState("");

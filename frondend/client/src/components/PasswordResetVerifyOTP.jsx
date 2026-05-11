@@ -2,6 +2,8 @@ import { useState } from "react";
 import api from "../api/api";
 import { useNavigate, useLocation } from "react-router-dom";
 import Swal from "sweetalert2"; // Recommended for consistent alerts
+import "./OTP.css"
+
 
 export default function PasswordResetVerifyOTP() {
   const [otp, setOtp] = useState("");
